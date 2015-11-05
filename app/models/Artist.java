@@ -7,6 +7,7 @@ import play.db.jpa.Model;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import play.data.validation.Required;
 
 /**
  *
@@ -19,8 +20,13 @@ import java.util.List;
 @Entity
 public class Artist extends Model {
 
+    @Required
     public File artistImage;
+    
+    @Required
     public String artistName;
+    
+    @Required
     public String artistDescription;
 
     @Reference

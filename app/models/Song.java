@@ -5,6 +5,7 @@ import org.mongodb.morphia.annotations.Reference;
 import play.db.jpa.Model;
 
 import java.io.File;
+import play.data.validation.Required;
 
 /**
  * Created by Jonatan on 04/11/2015.
@@ -15,9 +16,14 @@ import java.io.File;
 @Entity
 public class Song extends Model {
 
+    @Required
     public String songName;
+    
+    @Required
     public File audio;
 
+    @Required
+    
     @Reference
     public Artist author;
 
