@@ -1,13 +1,12 @@
 package models;
 
-import org.mongodb.morphia.annotations.Entity;
-import org.mongodb.morphia.annotations.Reference;
-import play.db.jpa.Model;
-
+import com.google.code.morphia.annotations.Entity;
+import com.google.code.morphia.annotations.Reference;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import play.data.validation.Required;
+import play.modules.morphia.Model;
 
 /**
  *
