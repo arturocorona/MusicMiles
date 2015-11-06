@@ -13,6 +13,10 @@ import play.mvc.With;
 
 @With(Secure.class)
 public class Admin extends Controller {
+    
+    /**
+     * Interceptor method that set the connected Artist on the Args
+     */
     @Before
     static void setConnectedUser() {
         if(Security.isConnected()) {
@@ -21,6 +25,9 @@ public class Admin extends Controller {
         }
     }
 
+    /**
+     * Index method for Admin
+     */
     public static void index() {
         render();
     }

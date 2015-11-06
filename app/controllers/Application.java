@@ -7,6 +7,10 @@ import java.util.*;
 
 import models.*;
 
+/**
+ * Controller for access the app and get the Artist image.
+ * @author arturo
+ */
 public class Application extends Controller {
 
     public static void index() {
