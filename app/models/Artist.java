@@ -2,10 +2,10 @@ package models;
 
 import com.google.code.morphia.annotations.Entity;
 import com.google.code.morphia.annotations.Reference;
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import play.data.validation.Required;
+import play.modules.morphia.Blob;
 import play.modules.morphia.Model;
 
 /**
@@ -20,7 +20,7 @@ import play.modules.morphia.Model;
 public class Artist extends Model {
 
     @Required
-    public File artistImage;
+    public Blob artistImage;
     
     @Required
     public String artistName;
@@ -31,7 +31,7 @@ public class Artist extends Model {
     @Reference
     public List<Song> artistSongs;
 
-    public Artist(File artistImage, String artistName, String artistDescription) {
+    public Artist(Blob artistImage, String artistName, String artistDescription) {
         this.artistImage = artistImage;
         this.artistName = artistName;
         this.artistDescription = artistDescription;

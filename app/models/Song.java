@@ -4,6 +4,7 @@ import com.google.code.morphia.annotations.Entity;
 import com.google.code.morphia.annotations.Reference;
 import java.io.File;
 import play.data.validation.Required;
+import play.modules.morphia.Blob;
 import play.modules.morphia.Model;
 
 /**
@@ -18,14 +19,12 @@ public class Song extends Model {
     public String songName;
     
     @Required
-    public File audio;
+    public Blob audio;
 
-    @Required
-    
     @Reference
     public Artist author;
 
-    public Song(String songName, File audio, Artist author) {
+    public Song(String songName, Blob audio, Artist author) {
         this.songName = songName;
         this.audio = audio;
         this.author = author;
