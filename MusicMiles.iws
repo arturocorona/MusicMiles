@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39eb44dc-9e1f-484b-8c4a-927fb284276f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/models/Artist.class" afterPath="$PROJECT_DIR$/tmp/classes/models/Artist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/DocViewerPlugin" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/DocViewerPlugin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Exclude" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Exclude" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$For" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$For" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Hidden" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Hidden" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType$ObjectField" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType$ObjectField" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Check" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Check" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.PlayDocumentation" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.PlayDocumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.ProjectDocumentation" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.ProjectDocumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure$Security" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure$Security" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$1" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$2" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$3" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$4" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.LangMenuHelper$1" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.LangMenuHelper$1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.LangMenuHelper$LangMenu" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.LangMenuHelper$LangMenu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.LangMenuHelper" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.LangMenuHelper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Artist" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Artist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Artist.java" afterPath="$PROJECT_DIR$/app/models/Artist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicMiles.iml" afterPath="$PROJECT_DIR$/MusicMiles.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicMiles.iws" afterPath="$PROJECT_DIR$/MusicMiles.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Song.java" afterPath="$PROJECT_DIR$/app/models/Song.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_welcome.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_welcome_en.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_welcome_en.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
     </list>
     <ignored path="MusicMiles.iws" />
@@ -60,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/Song.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -70,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/Artist.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.55308217">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42911154">
-              <caret line="219" column="35" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
+            <state vertical-scroll-proportion="-3.2">
+              <caret line="216" column="19" selection-start-line="216" selection-start-column="19" selection-end-line="216" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -131,8 +103,8 @@
         <option value="$PROJECT_DIR$/public/css/agency.css" />
         <option value="$PROJECT_DIR$/app/models/Artist.java" />
         <option value="$PROJECT_DIR$/app/models/Song.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
       </list>
     </option>
   </component>
@@ -570,7 +542,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -657,7 +629,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#328#329#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -794,7 +766,7 @@
     <entry file="file://$PROJECT_DIR$/app/models/Song.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -802,17 +774,7 @@
     <entry file="file://$PROJECT_DIR$/app/models/Artist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -821,11 +783,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42911154">
-          <caret line="219" column="35" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
+        <state vertical-scroll-proportion="-3.2">
+          <caret line="216" column="19" selection-start-line="216" selection-start-column="19" selection-end-line="216" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55308217">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
