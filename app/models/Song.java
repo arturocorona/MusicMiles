@@ -30,4 +30,8 @@ public class Song extends Model {
         this.author = author;
     }
 
+    @Override
+    public String toString() {
+        return songName;
+    }
 }

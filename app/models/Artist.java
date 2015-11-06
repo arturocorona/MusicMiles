@@ -28,6 +28,8 @@ public class Artist extends Model {
     @Required
     public String artistDescription;
 
+    public boolean isAdmin;
+
     @Reference
     public List<Song> artistSongs;
 
@@ -36,5 +38,10 @@ public class Artist extends Model {
         this.artistName = artistName;
         this.artistDescription = artistDescription;
         this.artistSongs = new ArrayList<Song>();
+    }
+
+    @Override
+    public String toString() {
+        return artistName;
     }
 }

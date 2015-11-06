@@ -11,7 +11,6 @@ public class Application extends Controller {
 
     public static void index() {
         Artist first = Artist.find("byArtistName", "Volta").first();
-        System.out.println("-->" + first.artistImage);
 
         render(first);
     }
@@ -22,6 +21,5 @@ public class Application extends Controller {
         response.setContentTypeIfNotSet(user.artistImage.type());
         renderBinary(user.artistImage.get());
     }
-
 
 }
