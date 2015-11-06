@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administration</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/crud.css'}" />
+    #{get 'moreStyles' /}
+
+</head>
+<body id="crud">
+
+<div id="crudHeader">
+    <h1><a href="@{CRUD.index()}">&{'crud.title'}</a></h1>
+</div>
+
+<div id="main">
+
+    <ul id="adminMenu">
+        <li class="${request.controller == 'Admin' ? 'selected' : ''}">
+            <a href="@{Admin.index()}">My music</a>
+        </li>
+        <li class="${request.controller == 'Songs' ? 'selected' : ''}">
+            <a href="@{Songs.list()}">My songs</a>
+        </li>
+        #{secure.check 'admin'}
+        <li class="${request.controller == 'Artists' ? 'selected' : ''}">
+            <a href="@{Artists.list()}">Artists</a>
+        </li>
+        #{/secure.check}
+        <li>
+            <a href="@{Secure.logout()}">Log out</a>
+        </li>
+    </ul>
+
+    #{doLayout /}
+</div>
+
+<p id="footer">
+    Music Miles is powered by
+    <a href="http://www.playframework.org">Play framework</a>
+</p>
+
+</body>
+</html>
