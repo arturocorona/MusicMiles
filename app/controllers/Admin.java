@@ -11,7 +11,7 @@ import play.mvc.With;
  * This class represents the personalization of users.
  */
 
-@With(Secure.class)
+//@With(Secure.class)
 public class Admin extends Controller {
     @Before
     static void setConnectedUser() {
