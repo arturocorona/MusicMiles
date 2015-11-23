@@ -8,6 +8,6 @@ import play.mvc.With;
  * Controller of Artists.
  */
 
-@With(Secure.class)
+//  @With(Secure.class)
 public class Artists extends CRUD {
 }
