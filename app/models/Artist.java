@@ -55,6 +55,12 @@ public class Artist extends Model {
         return find("byEmailAndPassword", email, password).first();
     }
 
+    public void addSong(String songName, Blob audio){
+        Song song = new Song(songName, audio, this).save();
+        this.artistSongs.add(song);
+        this.save();
+    }
+
     @Override
     public String toString() {
         return artistName;

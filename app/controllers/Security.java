@@ -30,7 +30,7 @@ public class Security extends Secure.Security {
      * redirect to the admin index.
      */
     static void onAuthenticated() {
-        Admin.index();
+        Profile.editProfile();
     }
 
     /**
