@@ -6,7 +6,8 @@ logs/
 test-result/
 lib/
 tmp/
-modules//nbproject
+modules/
+nbproject/
 MusicMiles.iws
 MusicMiles.ipr
 MusicMiles.iml
